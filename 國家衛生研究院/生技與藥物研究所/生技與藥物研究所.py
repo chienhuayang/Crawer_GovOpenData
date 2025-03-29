@@ -11,7 +11,7 @@ import os
 
 enterprise = '國家衛生研究院'
 groupname='生技與藥物研究所'
-filepath = 'C:\\Users\\智域國際_楊倩華\\Documents\\202208\\爬蟲_聯絡人\\'+enterprise
+filepath = ''
 pagelist=['https://ibpr.nhri.org.tw/zhtw/index.php/investigators-2/','https://ibpr.nhri.org.tw/zhtw/index.php/research-staff/','https://ibpr.nhri.org.tw/zhtw/index.php/administrative-staff/']
 name=''
 email=[]
