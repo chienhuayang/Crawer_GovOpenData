@@ -11,21 +11,21 @@ import os
 
 enterprise = '國家衛生研究院'
 groupname='生醫工程與奈米醫學研究所'
-filepath = 'C:\\Users\\智域國際_楊倩華\\Documents\\202208\\爬蟲_聯絡人\\'+enterprise
+filepath = ''
 name=''
 email=''
 phone=''
 phonenum = '037-206166'
 
 if os.path.isfile(filepath) !=-1:
-    filepath = 'C:\\Users\\智域國際_楊倩華\\Documents\\202208\\爬蟲_聯絡人\\'+enterprise+'\\'+groupname
+    filepath = ''
     if os.path.isfile(filepath)==-1: 
         os.mkdir(filepath)
         print('file will be save at '+filepath)
     elif os.path.isfile(filepath)!=-1: print('file will be save at '+filepath)
 else:
     os.mkdir(filepath)
-    filepath = 'C:\\Users\\智域國際_楊倩華\\Documents\\202208\\爬蟲_聯絡人\\'+enterprise+'\\'+groupname
+    filepath = ''
     os.mkdir(filepath)
     print('file will be save at '+filepath)
 
