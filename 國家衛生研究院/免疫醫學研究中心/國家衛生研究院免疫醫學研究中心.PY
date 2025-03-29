@@ -13,7 +13,7 @@ import os
 
 enterprise = '國家衛生研究院'
 groupname='免疫醫學研究中心'
-filepath = 'C:\\Users\\智域國際_楊倩華\\Documents\\202208\\爬蟲_聯絡人\\'+enterprise
+filepath = ''+enterprise
 name=''
 email=''
 phone=''
