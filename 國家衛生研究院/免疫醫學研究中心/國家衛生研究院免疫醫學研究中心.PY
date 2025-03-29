@@ -20,14 +20,14 @@ phone=''
 
 
 if os.path.isfile(filepath) !=-1:
-    filepath = 'C:\\Users\\智域國際_楊倩華\\Documents\\202208\\爬蟲_聯絡人\\'+enterprise+'\\'+groupname
+    filepath = ''
     if os.path.isfile(filepath)!=-1: 
         os.mkdir(filepath)
         print('file will be save at '+filepath)
     else: print('file will be save at '+filepath)
 else:
     os.mkdir(filepath)
-    filepath = 'C:\\Users\\智域國際_楊倩華\\Documents\\202208\\爬蟲_聯絡人\\'+enterprise+'\\'+groupname
+    filepath = ''
     os.mkdir(filepath)
     print('file will be save at '+filepath)
 
@@ -51,7 +51,7 @@ for a in range(len(pagelist)):
     page = driver.get(pagelist[a])
     for i in driver.find_elements(By.XPATH,"//tbody//tr//td"): 
         #i只有一格資料
-        #['莊宗顯'] #['研究員暨代理主任'] #['分機37611'] #['thchuang@nhri.edu.tw']
+        
         if i.text:
             data = i.text
             if data.find('研究')!=-1:print("none")
