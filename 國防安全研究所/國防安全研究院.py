@@ -6,7 +6,7 @@ import time
 import openpyxl
 
 enterprise ='國防安全研究院'
-#filepath = 'C:\Users\智域國際_楊倩華\OneDrive - 智域國際股份有限公司\文件\202208\爬蟲_聯絡人'
+#filepath = ''
 filename='聯絡人_'+enterprise+'.xlsx'
 driver = webdriver.Chrome()
 ap_list=[]
